@@ -2444,6 +2444,9 @@ PrefabInstance:
       addedObject: {fileID: 926102787}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fae85a913d6d33b45a4b7479c418b2e7, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 926102790}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fae85a913d6d33b45a4b7479c418b2e7, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 926102788}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fae85a913d6d33b45a4b7479c418b2e7, type: 3}
       insertIndex: -1
@@ -2774,9 +2777,30 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0738887, y: 2.2612345, z: 3}
-  m_Center: {x: 0.025043132, y: 1.1306173, z: 0.36}
+  m_Size: {x: 0.94, y: 2.2612345, z: 3}
+  m_Center: {x: -0.01, y: 1.1306173, z: 0.43}
 --- !u!65 &926102789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926102781}
+  m_Material: {fileID: 13400000, guid: f6d2cc87b019c514b98318a1c091e5a1, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.55, y: 0.52, z: 7.16}
+  m_Center: {x: 0, y: 1.98, z: -0.56}
+--- !u!65 &926102790
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2795,8 +2819,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.55, y: 0.52, z: 7.16}
-  m_Center: {x: 0, y: 1.98, z: -0.56}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1.62, z: 1.26}
 --- !u!1 &948679720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1499480823965410, guid: 90ee203fd9e6715419f1f27807362d44, type: 3}
@@ -2836,7 +2860,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948679720}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f6d2cc87b019c514b98318a1c091e5a1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
